@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+  width: 30%;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffff;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+.buttonEle {
+  color: #000000;
+  background-color: #ffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400px;
+  border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+  .buttonEle {
+    font-size: 22px;
+  }
+}
